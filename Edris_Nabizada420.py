@@ -75,9 +75,6 @@ logo = """
 \033[1;34m••••••••••••••••••••••••••••••••••••••••••••••••
 """
 
-CorrectUsername = "edris"
-CorrectPassword = "nabizada"
-
 def tik():
 	titik = ['.   ','..  ','... ']
 	for o in titik:
@@ -101,6 +98,11 @@ komen = []
 vulnot = "Not Vuln"
 vuln = "Vuln"
 
+
+CorrectUsername = "edris"
+CorrectPassword = "nabizada"
+
+
 ######MASUK######
 def masuk():
 	os.system('clear')
@@ -109,12 +111,12 @@ def masuk():
 	print "\33[1;33m║[\033[1;31;1m01\33[1;33m]\033[37;1mLogin Facebook (Email/Id FB) \33[1;33m"
 	print "\33[1;33m║[\033[1;31;1m02\33[1;33m]\033[37;1mLogin With Fb Token Facebook      \33[1;33m"
 	print "\33[1;33m║[\033[1;31;1m03\33[1;33m]\033[37;1mEmail Token                           \33[1;33m"
-	print "\33[1;33m║[\033[1;31;1m00\33[1;33m]\033[37;1mExit Script SULTAN SHARIAR                                \33[1;33m"
+	print "\33[1;33m║[\033[1;31;1m00\33[1;33m]\033[37;1mExit Script EDRID NABIZADA                               \33[1;33m"
 	print "\33[1;33m╚══════════════════════════════════════════╝"
 	pilih_masuk()
 
 def pilih_masuk():
-	msuk = raw_input("\033[1;93mBY *_SULTAN_* \033[91m:\033[1;96m ")
+	msuk = raw_input("\033[1;93mBY *_EDRIS_* \033[91m:\033[1;96m ")
 	if msuk =="":
 		print"\033[37;1m[\033[32;1m!\033[37;1m] Isi Yg Benar !"
 		pilih_masuk()
